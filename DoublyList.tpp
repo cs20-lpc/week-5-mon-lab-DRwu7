@@ -31,6 +31,7 @@ DoublyList<T>::~DoublyList() {
 template <typename T>
 void DoublyList<T>::append(const T& elem) {
     // TO DO: Implement the code for the append
+    return;
 
 }
 
@@ -67,6 +68,8 @@ void DoublyList<T>::copy(const DoublyList<T>& copyObj) {
 template <typename T>
 T DoublyList<T>::getElement(int position) const {
     // TO DO: Implent code for getElement at position
+    T retVal = T();
+    return retVal;
 }
 
 template <typename T>
